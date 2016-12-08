@@ -1,5 +1,5 @@
 $(function() {
-
+  $();
     $(document).ready(function(){
       $('.top-logo').fadeIn(400);
       $('.question.q1').delay(500).slideDown(200);
