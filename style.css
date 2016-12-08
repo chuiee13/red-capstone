@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+body {
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  margin: 5%;
+}
+h1 {
+  margin-top: -20%;
+  font-size: 5vw;
+  padding-left: 10%;
+  padding-bottom: 20%;
+  display: block;
+  line-height: 30%;
+}
+p {
+  font-size: 2.5vw;
+  padding-bottom: 10%;
+  display: block;
+}
+label {
+  display: block;
+}
+nav {
+  z-index: 1000;
+  margin-top: -10%;
+  position: fixed;
+  width: 90%;
+}
+.menu {
+  display: none;
+}
+.top-logo {
+  display: none;
+  text-align: center;
+}
+.top-logo img {
+  width: 50%;
+  padding-top: 9.5%;
+}
+.form-holder {
+  display: flex;
+  justify-content: space-between;
+}
+.question-flex-holder {
+  margin: 15%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.question {
+  display: none;
+  color: white;
+  width: 33%;
+  height: 83vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.question.q1 {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.45) 0%, rgba(0, 0, 0, 0.3) 96%, rgba(0, 0, 0, 0.3) 100%), url("images/image1.png");
+}
+.question.q2 {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.45) 0%, rgba(0, 0, 0, 0.3) 96%, rgba(0, 0, 0, 0.3) 100%), url("images/image2.png");
+}
+.question.q3 {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.45) 0%, rgba(0, 0, 0, 0.3) 96%, rgba(0, 0, 0, 0.3) 100%), url("images/image3.png");
+}
+.question:hover.q1 {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 0%, rgba(0, 0, 0, 0.4) 96%, rgba(0, 0, 0, 0.4) 100%), url("images/image1.png");
+}
+.question:hover.q2 {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 0%, rgba(0, 0, 0, 0.4) 96%, rgba(0, 0, 0, 0.4) 100%), url("images/image2.png");
+}
+.question:hover.q3 {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 0%, rgba(0, 0, 0, 0.4) 96%, rgba(0, 0, 0, 0.4) 100%), url("images/image3.png");
+}
+.question-holder {
+  width: 100%;
+}
+.question-label {
+  font-size: 3vw;
+  width: 100%;
+  padding: 3% 0;
+}
+.question-label.q1 {
+  text-align: right;
+}
+.question-label.q2 {
+  border-top: 1vh solid white;
+  text-align: center;
+}
+.question-label.q3 {
+  border-bottom: 1vh solid white;
+}
+input[type="text"] {
+  width: 100%;
+  height: 5vh;
+  background-color: rgba(255, 255, 255, 0);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1vh solid white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5vw;
+  color: white;
+}
+input[type="text"]:focus {
+  outline: none;
+}
+.q-table {
+  width: 100%;
+}
+.q-value {
+  font-size: 2vw;
+  text-align: right;
+  padding: 3% 0;
+}
+.submit-button {
+  display: none;
+  border: none;
+  background: white;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-size: 3vw;
+  margin-top: -10%;
+  padding: 2%;
+  padding-bottom: 5vh;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.submit-button:focus {
+  outline: none;
+}
+.submit-button:hover {
+  color: #9197A3;
+}
+.social-media {
+  display: none;
+  padding-top: 1.2%;
+}
+.social-media a {
+  color: black;
+}
+.social-media a:hover {
+  color: #9197A3;
+}
+.social-media a:visted {
+  color: black;
+}
+.social-media .fa {
+  padding-right: 1%;
+  font-size: 1.5vw;
+}

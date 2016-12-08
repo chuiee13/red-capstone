@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SSENSE My Shoes</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css"
+      media = "screen and (max-width : 768px)"
+      media = "only screen and (min-width: 375px) and (max-height: 667px)">
+  </head>
+
+  <body>
+    <nav class="top-bar">
+      <div class="menu">
+        <img src="images/menu.svg">
+      </div>
+      <div class="top-logo">
+        <img src="images/logo.svg">
+      </div>
+    </nav>
+
+    <div class="form-holder">
+      <section class="question q1" id="question-1">
+        <div class="question-flex-holder q1">
+          <div class="question-holder q1">
+            <h1>1.</h1>
+            <p>let's start with</p>
+            <label class="label-name">
+              <input type="text" name="name"><h2 class="question-label q1">your NAME</h2>
+            </label>
+          </div>
+        </div>
+      </section>
+
+      <section class="question q2" id="question-2">
+        <div class="question-flex-holder q2">
+          <div class="question-holder q2">
+            <h1>2.</h1>
+            <p>what's your<p>
+            <label class="label-mood">
+              <table class="q-table q2">
+                <tr>
+                  <td class"q-bullet q2"><input class="mood-selector" type="radio" name="mood" value="happy"></td>
+                  <td class="q-value q2">happy</td>
+                </tr>
+                <tr>
+                  <td class"q-bullet q2"><input class="mood-selector" type="radio" name="mood" value="mad"></td>
+                  <td class="q-value q2">mad</td>
+                </tr>
+              </table>
+              <h2 class="question-label q2">MOOD</h2>
+            </label>
+          </div>
+        </div>
+      </section>
+
+      <section class="question q3" id="question-3">
+        <div class="question-flex-holder q3">
+          <div class="question-holder q3">
+            <h1>3.</h1>
+            <label class="label-flavors">
+              <h2 class="question-label q3">FLAVORS</h2>
+              <table class="q-table q3">
+                <tr>
+                  <td class"q-bullet q3"><input class="flavor-selector" type="checkbox" name="chk" value="vanilla" unchecked></td>
+                  <td class="q-value q3">vanilla</td>
+                </tr>
+                <tr>
+                  <td class"q-bullet q3"><input class="flavor-selector" type="checkbox" name="chk" value="chocolate" unchecked></td>
+                  <td class="q-value q3">chocolate</td>
+                </tr>
+                <tr>
+                  <td class"q-bullet q3"><input class="flavor-selector" type="checkbox" name="chk" value="strawberry" unchecked></td>
+                  <td class="q-value q3">strawberry</td>
+                </tr>
+              </table>
+            </label>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <a href="https://www.ssense.com/en-ca/women/designers/all/shoes" target="_blank">
+      <button class="submit-button" type="submit">submit</button>
+    </a>
+
+    <div class="social-media">
+      <a href="https://www.facebook.com/SSENSEofficial/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      <a href="https://twitter.com/SSENSE" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      <a href="https://www.instagram.com/ssense/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+      <a href="https://www.pinterest.com/ssense/" target="_blank"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+    </div>
+
+    <script
+      src="http://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+  </body>
+
+  </html>

@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0,0,0,.01) 0 0 1px;
+
+  margin: 5%;
+}
+
+h1 {
+  margin-top: -20%;
+  font-size: 5vw;
+  padding-left: 10%;
+  padding-bottom: 20%;
+  display: block;
+  line-height: 30%;
+}
+
+p {
+  font-size: 2.5vw;
+  padding-bottom: 10%;
+  display: block;
+}
+
+label {
+  display: block;
+}
+
+nav {
+  z-index: 1000;
+  margin-top: -10%;
+  position: fixed;
+  width: 90%;
+}
+
+.menu {
+  display: none;
+}
+
+.top-logo {
+  display: none;
+  text-align: center;
+  img {
+    width: 50%;
+    padding-top: 9.5%;
+  }
+}
+
+.form-holder {
+  display: flex;
+  justify-content:space-between;
+}
+
+.question-flex-holder {
+  margin: 15%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.question {
+  display: none;
+  color: white;
+  width: 33%;
+  height: 83vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  &.q1 {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.45) 0%,rgba(0,0,0,0.30) 96%,rgba(0,0,0,0.30) 100%), url("./images/image1.png");
+  }
+  &.q2 {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.45) 0%,rgba(0,0,0,0.30) 96%,rgba(0,0,0,0.30) 100%), url("./images/image2.png");
+  }
+  &.q3 {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.45) 0%,rgba(0,0,0,0.30) 96%,rgba(0,0,0,0.30) 100%), url("./images/image3.png");
+  }
+  &:hover {
+    &.q1 {
+      background-image: linear-gradient(to bottom, rgba(255,255,255,0.60) 0%,rgba(0,0,0,0.40) 96%,rgba(0,0,0,0.40) 100%), url("./images/image1.png");
+    }
+    &.q2 {
+      background-image: linear-gradient(to bottom, rgba(255,255,255,0.60) 0%,rgba(0,0,0,0.40) 96%,rgba(0,0,0,0.40) 100%), url("./images/image2.png");
+    }
+    &.q3 {
+      background-image: linear-gradient(to bottom, rgba(255,255,255,0.60) 0%,rgba(0,0,0,0.40) 96%,rgba(0,0,0,0.40) 100%), url("./images/image3.png");
+    }
+  }
+}
+
+.question-holder {
+  width: 100%;
+}
+
+.question-label {
+  font-size: 3vw;
+  width: 100%;
+  padding: 3% 0;
+  &.q1 {
+    text-align: right;
+  }
+  &.q2 {
+    border-top: 1vh solid white;
+    text-align: center;
+  }
+  &.q3 {
+    border-bottom: 1vh solid white;
+  }
+}
+
+input[type="text"] {
+  width: 100%;
+  height: 5vh;
+  background-color: rgba(255,255,255,0);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1vh solid white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5vw;
+  color: white;
+  &:focus {
+    outline: none;
+  }
+}
+
+.q-table {
+  width: 100%;
+}
+
+.q-value {
+  font-size: 2vw;
+  text-align: right;
+  padding: 3% 0;
+}
+
+.submit-button {
+  display: none;
+  border: none;
+  background: white;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-size: 3vw;
+  margin-top: -10%;
+  padding: 2%;
+  padding-bottom: 5vh;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    color: #9197A3;
+  }
+}
+
+.social-media {
+  display: none;
+  padding-top: 1.2%;
+  a {
+    color: black;
+  }
+  a:hover {
+    color: #9197A3;
+  }
+  a:visted {
+    color: black;
+  }
+  .fa {
+    padding-right: 1%;
+    font-size: 1.5vw;
+  }
+}
